@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box!important;
+}
+
+
+.navbar-default {
+  background-color: transparent !important;
+}
+
+
+.intro-header {
+background-image: url('CARGO_SHIP_tanker_ship_boat_transport_container_freighter_1920x900.jpg');
+background-size: cover;
+height: 650px;
+padding-top: 150px;
+padding-bottom:50px;
+color: white;
+}
+
+
+
+h1 {
+ font-size: 50px;
+ line-height: 200%;
+}
+
+.btn-casper {
+  margin-left: 70px;
+}
