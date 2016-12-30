@@ -27,3 +27,16 @@ h1 {
 .btn-casper {
   margin-left: 70px;
 }
+
+.info-box {
+  margin-top: 110px;
+  margin-bottom: 140px;
+  margin-left: 80px;
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+  border-top: 5px solid blue;
+  border-bottom: 3px solid blue;
+  border-radius: 2px;
+  height: 360px;
+  width: 70%;
+}
