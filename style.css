@@ -31,20 +31,19 @@ h1 {
 .info-box {
   margin-top: 110px;
   margin-bottom: 140px;
-  margin-left: 80px;
   border-left: 1px solid CornflowerBlue;
   border-right: 1px solid CornflowerBlue;
   border-top: 5px solid CornflowerBlue;
   border-bottom: 3px solid CornflowerBlue;
   border-radius: 2px;
   height: 360px;
-  width: 70%;
+  width: 100%;
   position: relative;
   padding-top: 8px;
 }
 
 .lower-box {
-  height: 15%;
+  height: 12%;
   bottom: 0px;
   background-color: CornflowerBlue;
   bottom: 0;
@@ -55,7 +54,7 @@ h1 {
 }
 
 .lower-box p {
-  font-size: 30px;
+  font-size: 25px;
   color: white;
 
 }
@@ -71,8 +70,31 @@ h1 {
 }
 
 .box-text {
-  font-size: 25px;
+  font-size: 23px;
   color: grey;
   margin-top: 30px;
   font-weight: 100;
+}
+
+.casper-text {
+  padding: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.grey-background {
+  background-color: #3F494D;
+  padding: 50px;
+
+}
+
+
+section .container-fluid .well-grey {
+  background-color: #808080;
+  color: white;
+  font-size: 20px;
+}
+
+b {
+  font-size: 22px;
 }
