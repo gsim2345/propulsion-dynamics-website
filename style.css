@@ -31,10 +31,10 @@ h1 {
 .info-box {
   margin-top: 110px;
   margin-bottom: 140px;
-  border-left: 1px solid CornflowerBlue;
-  border-right: 1px solid CornflowerBlue;
-  border-top: 5px solid CornflowerBlue;
-  border-bottom: 3px solid CornflowerBlue;
+  border-left: 1px solid #6ABCBC;
+  border-right: 1px solid #6ABCBC;
+  border-top: 5px solid #6ABCBC;
+  border-bottom: 3px solid #6ABCBC;
   border-radius: 2px;
   height: 360px;
   width: 100%;
@@ -45,7 +45,7 @@ h1 {
 .lower-box {
   height: 12%;
   bottom: 0px;
-  background-color: CornflowerBlue;
+  background-color: #6ABCBC;
   bottom: 0;
   position: absolute;
   width: 100%;
@@ -60,18 +60,18 @@ h1 {
 }
  .box-header {
   font-weight: bold;
-  color:CornflowerBlue ;
+  color: #6ABCBC ;
  }
 
 .info-icon {
-  color: CornflowerBlue;
+  color: #6ABCBC;
   font-size: 20px;
   margin-top: 40px;
 }
 
 .box-text {
   font-size: 23px;
-  color: grey;
+  color: #808080;
   margin-top: 30px;
   font-weight: 100;
 }
@@ -97,4 +97,47 @@ section .container-fluid .well-grey {
 
 b {
   font-size: 22px;
+}
+
+.footers {
+  background-color: #6ABCBC;
+  color: white;
+  padding: 0px;
+}
+
+.float-right {
+  float: right;
+}
+
+.column-1 {
+  width: 45px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+
+
+table {
+  margin-top: 25px;
+}
+
+th {
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+td {
+  font-size: 18px;
+  line-height: 1em;
+  margin: 0px;
+}
+
+.footer-text {
+  padding: 9px;
+  margin-top: 40px;
+}
+
+.bottom-text {
+  margin-bottom: 20px;
 }
