@@ -3,8 +3,8 @@ html {
 }
 
 
-.navbar-default {
-  background-color: transparent !important;
+#navigation-bar{
+  background-color: transparent;
 }
 
 
@@ -76,6 +76,10 @@ h1 {
   font-weight: 100;
 }
 
+.bold-word {
+  font-weight: bold;
+}
+
 .casper-text {
   padding: 30px;
   padding-right: 50px;
@@ -87,6 +91,7 @@ h1 {
   padding: 50px;
 
 }
+
 
 
 section .container-fluid .well-grey {
