@@ -105,9 +105,8 @@ b {
   padding: 0px;
 }
 
-.float-right {
-  float: right;
-}
+
+
 
 .column-1 {
   width: 45px;
@@ -115,7 +114,10 @@ b {
   font-size: 25px;
 }
 
-
+footer h2 {
+  line-height: 100%;
+  font-weight: bold;
+}
 
 table {
   margin-top: 25px;
@@ -133,11 +135,17 @@ td {
   margin: 0px;
 }
 
+.bottom-text {
+  margin-bottom: 20px;
+}
+
 .footer-text {
   padding: 9px;
   margin-top: 40px;
 }
 
-.bottom-text {
-  margin-bottom: 20px;
+
+
+.float-right {
+  float: right;
 }
