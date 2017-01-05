@@ -2,11 +2,20 @@ html {
   box-sizing: border-box!important;
 }
 
+#navigation nav {
+    background-color: transparent;
 
-#navigation-bar{
-  background-color: transparent;
 }
 
+#navigation a {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+#navigation .navbar .navbar-brand {
+  height: 30px;
+  line-height: 20px;
+}
 
 .intro-header {
 background-image: url('CARGO_SHIP_tanker_ship_boat_transport_container_freighter_1920x900.jpg');
