@@ -34,14 +34,23 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Propulsion Dynamics</a>
+          <a class="navbar-brand" href="#home">Propulsion Dynamics</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Casper service</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CASPER service <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#CASPER-service">What is CASPER service</a></li>
+              <li><a href="#CASPER-how">How CASPER service works</a></li>
+              <li><a href="#CASPER-benefits">Benefits of CASPER service</a></li>
+            </ul>
+          </li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#contacts">Contact</a></li>
+          <li><a href="#">Login</a></li>
         </ul>
        </div>
      </div>
@@ -57,7 +66,7 @@
         <div class="row">
           <div class="col-md-6">
             <h1>CASPER, the power for your ship-mile performance</h1>
-            <a href="javascript:void(0)" class="btn btn-raised btn-default btn-casper">What is CASPER ?</a>
+            <a href="#service-info" class="btn btn-raised btn-default btn-casper">What is CASPER ?</a>
 
           </div>
         </div>
@@ -74,42 +83,48 @@
         <div class="row">
           <div class="col-md-2"></div>
           <div class="col-md-2">
-            <div class="info-box">
-              <p class="text-center box-header">What is CASPER Service</p>
-              <div class="info-icon">
-                <p class="text-center"><i class="fa fa-ship fa-5x" aria-hidden="true"></i></p>
-              </div>
-              <p class="text-center box-text">Determining fuel efficiency</p>
-              <div class="lower-box">
-                <p class="text-center">WHAT</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-2">
-            <div class="info-box">
-                <p class="text-center box-header">Benefits of the CASPER service</p>
+            <a href="#CASPER-service">
+              <div class="info-box">
+                <p class="text-center box-header">What is CASPER Service</p>
                 <div class="info-icon">
-                  <p class="text-center"><i class="fa fa-list-alt fa-5x" aria-hidden="true"></i></p>
+                  <p class="text-center"><i class="fa fa-ship fa-5x" aria-hidden="true"></i></p>
                 </div>
-                <p class="text-center box-text">It pays to be fuel efficient</p>
+                <p class="text-center box-text">Determining fuel efficiency</p>
                 <div class="lower-box">
-                  <p class="text-center">WHY</p>
+                  <p class="text-center">WHAT</p>
                 </div>
               </div>
+            </a>
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-2">
-            <div class="info-box">
-              <p class="text-center box-header">Click here to LOGIN</p>
-              <div class="info-icon">
-                <p class="text-center"><i class="fa fa-sign-in fa-5x" aria-hidden="true"></i></p>
+            <a href="#CASPER-benefits">
+              <div class="info-box">
+                  <p class="text-center box-header">Benefits of the CASPER service</p>
+                  <div class="info-icon">
+                    <p class="text-center"><i class="fa fa-list-alt fa-5x" aria-hidden="true"></i></p>
+                  </div>
+                  <p class="text-center box-text">It pays to be fuel efficient</p>
+                  <div class="lower-box">
+                    <p class="text-center">WHY</p>
+                  </div>
               </div>
-              <p class="text-center box-text">Sign in to Customer Portal</p>
-              <div class="lower-box">
-                <p class="text-center">TRY</p>
+            </a>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-2">
+            <a href="#">
+              <div class="info-box">
+                <p class="text-center box-header">Click here to LOGIN</p>
+                <div class="info-icon">
+                  <p class="text-center"><i class="fa fa-sign-in fa-5x" aria-hidden="true"></i></p>
+                </div>
+                <p class="text-center box-text">Sign in to our Customer Portal</p>
+                <div class="lower-box">
+                  <p class="text-center">TRY</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -148,16 +163,17 @@
 
   <!-- CASPER-service-how section starts-->
 
-  <section>
+  <section id="CASPER-how">
     <div class="container">
       <h1>How CASPER service works. </h1>
     </div>
   </section>
   <!-- CASPER-service-how section starts-->
 
+
   <!-- service-benefits section starts-->
 
-  <section class="grey-background">
+  <section id="CASPER-benefits" class="grey-background">
     <div class="container">
       <h1>Caroussel comes here with the benefits of the CASPER service</h1>
     </div>
@@ -166,123 +182,133 @@
 
   <!-- news section starts-->
 
-  <section>
+  <section id="news">
     <div class="container">
       <h1>The news</h1>
     </div>
   </section>
   <!-- news section ends-->
 
+  <!-- About section starts-->
+
+  <section id="about">
+    <div class="container">
+      <h1>About us</h1>
+    </div>
+  </section>
+  <!-- About section ends-->
+
   <!-- footer section starts-->
 
-
-  <footer class="footers">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-center">Contacts</h2>
-          <h4 class="text-center">General inquiries from anywhere with prompt reply: contact@propulsiondynamics.com</h4>
-        </div>
-      </div>
-
-
-      <div class="row">
-
-        <div class="col-md-5">
-          <table>
-            <tr>
-              <th class="column-1"></th>
-              <th>The Americas &amp; Asia</th>
-            </tr>
-            <tr>
-              <td class="column-1"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
-              <td><p>Propulsion Dynamics Inc. </p></td>
-            </tr>
-            <tr>
-              <td class="column-1"></td>
-              <td><p>6475 East Pacific Coast Highway #500</p></td>
-            </tr>
-            <tr>
-              <td class="column-1"></td>
-              <td><p class="bottom-text">Long Beach, CA 90803, USA</p></td>
-            </tr>
-            <tr>
-              <td class="column-1"><i class="fa fa-user bottom-text" aria-hidden="true"></i></td>
-              <td><p class="bottom-text">Mr. Daniel Kane</p></td>
-            </tr>
-            <tr>
-              <td class="column-1"><i class="fa fa-phone" aria-hidden="true"></i></td>
-              <td><p>+1-310-593-3609 </p></td>
-            </tr>
-            <tr>
-              <td class="column-1"></td>
-              <td><p class="bottom-text">(7am - 3pm PST)</p></td>
-            </tr>
-            <tr>
-              <td class="column-1"><i class="fa fa-envelope bottom-text" aria-hidden="true"></i></td>
-              <td><p class="bottom-text">DKane@propulsiondynamics.com </p></td>
-            </tr>
-            <tr>
-              <td class="column-1"><i class="fa fa-skype" aria-hidden="true"></i></td>
-              <td><p>daniel-pdi (various days/eves)</p></td>
-            </tr>
-          </table>
+  <section id="contacts">
+    <footer class="footers">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-center">Contacts</h2>
+            <h4 class="text-center">General inquiries from anywhere with prompt reply:   <span><a class="mail" href="mailto:contact@propulsiondynamics.com?Subject=Inquiry" target="_top">  contact@propulsiondynamics.com</a></span></h4>
           </div>
-        <div class="col-md-2"></div>
-
-        <div class="col-md-5">
-          <table>
-            <tr>
-              <th class="column-1"></th>
-              <th>Europe / Middle East</th>
-            </tr>
-            <tr>
-              <td class="column-1"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
-              <td><p>Propulsion Dynamics Europe </p></td>
-            </tr>
-            <tr>
-              <td class="column-1"></td>
-              <td><p>Stockholmsgade 43</p></td>
-            </tr>
-            <tr>
-              <td class="column-1"></td>
-              <td><p class="bottom-text">DK-2100, Copenhagen 0, Denmark</p></td>
-            </tr>
-            <tr>
-              <td class="column-1"><i class="fa fa-user bottom-text" aria-hidden="true"></i></td>
-              <td><p class="bottom-text">Mr. Christian Hammershoy</p></td>
-            </tr>
-            <tr>
-              <td class="column-1"><i class="fa fa-phone" aria-hidden="true"></i></td>
-              <td><p>+45 5191 6642 </p></td>
-            </tr>
-            <tr>
-              <td class="column-1"></td>
-              <td><p class="bottom-text">(9am - 4pm GMT+1)</p></td>
-            </tr>
-            <tr>
-              <td class="column-1"><i class="fa fa-envelope bottom-text" aria-hidden="true"></i></td>
-              <td><p class="bottom-text"> contact@propulsiondynamics.com </p></td>
-            </tr>
-
-          </table>
-
         </div>
-        <div class="col-md-1"></div>
+
+
+        <div class="row">
+
+          <div class="col-md-5">
+            <table>
+              <tr>
+                <th class="column-1"></th>
+                <th>The Americas &amp; Asia</th>
+              </tr>
+              <tr>
+                <td class="column-1"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                <td><p>Propulsion Dynamics Inc. </p></td>
+              </tr>
+              <tr>
+                <td class="column-1"></td>
+                <td><p>6475 East Pacific Coast Highway #500</p></td>
+              </tr>
+              <tr>
+                <td class="column-1"></td>
+                <td><p class="bottom-text">Long Beach, CA 90803, USA</p></td>
+              </tr>
+              <tr>
+                <td class="column-1"><i class="fa fa-user bottom-text" aria-hidden="true"></i></td>
+                <td><p class="bottom-text">Mr. Daniel Kane</p></td>
+              </tr>
+              <tr>
+                <td class="column-1"><i class="fa fa-phone" aria-hidden="true"></i></td>
+                <td><p>+1-310-593-3609 </p></td>
+              </tr>
+              <tr>
+                <td class="column-1"></td>
+                <td><p class="bottom-text">(7am - 3pm PST)</p></td>
+              </tr>
+              <tr>
+                <td class="column-1"><i class="fa fa-envelope bottom-text" aria-hidden="true"></i></td>
+                <td><p class="bottom-text"><a class="mail" href="mailto:DKane@propulsiondynamics.com?Subject=Inquiry" target="_top">  DKane@propulsiondynamics.com</a> </p></td>
+              </tr>
+              <tr>
+                <td class="column-1"><i class="fa fa-skype" aria-hidden="true"></i></td>
+                <td><p>daniel-pdi (various days/eves)</p></td>
+              </tr>
+            </table>
+            </div>
+          <div class="col-md-2"></div>
+
+          <div class="col-md-5">
+            <table>
+              <tr>
+                <th class="column-1"></th>
+                <th>Europe / Middle East</th>
+              </tr>
+              <tr>
+                <td class="column-1"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                <td><p>Propulsion Dynamics Europe </p></td>
+              </tr>
+              <tr>
+                <td class="column-1"></td>
+                <td><p>Stockholmsgade 43</p></td>
+              </tr>
+              <tr>
+                <td class="column-1"></td>
+                <td><p class="bottom-text">DK-2100, Copenhagen 0, Denmark</p></td>
+              </tr>
+              <tr>
+                <td class="column-1"><i class="fa fa-user bottom-text" aria-hidden="true"></i></td>
+                <td><p class="bottom-text">Mr. Christian Hammershoy</p></td>
+              </tr>
+              <tr>
+                <td class="column-1"><i class="fa fa-phone" aria-hidden="true"></i></td>
+                <td><p>+45 5191 6642 </p></td>
+              </tr>
+              <tr>
+                <td class="column-1"></td>
+                <td><p class="bottom-text">(9am - 4pm GMT+1)</p></td>
+              </tr>
+              <tr>
+                <td class="column-1"><i class="fa fa-envelope bottom-text" aria-hidden="true"></i></td>
+                <td><p class="bottom-text"> <a class="mail" href="mailto:contact@propulsiondynamics.com?Subject=Inquiry" target="_top">  contact@propulsiondynamics.com</a> </p></td>
+              </tr>
+
+            </table>
+
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+
+
+        <div class="row footer-text">
+          <div class="col-md-12">
+            <span>Propulsion Dynamics Inc | Long Beach | Copenhagen</span>
+            <span class="float-right">CASPER© is a Registered Trademark of Propulsion Dynamics Inc. All Rights reserved.</span>
+          </div>
+        </div>
+
+
       </div>
 
-
-      <div class="row footer-text">
-        <div class="col-md-12">
-          <span>Propulsion Dynamics Inc | Long Beach | Copenhagen</span>
-          <span class="float-right">CASPER© is a Registered Trademark of Propulsion Dynamics Inc. All Rights reserved.</span>
-        </div>
-      </div>
-
-
-    </div>
-
-  <footer>
+    <footer>
+  </section>
 
 
   <!-- footer section ends-->

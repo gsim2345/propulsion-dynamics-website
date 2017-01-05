@@ -10,11 +10,14 @@ html {
 #navigation a {
   padding-top: 15px;
   padding-bottom: 5px;
+  font-size: 16px;
 }
 
 #navigation .navbar .navbar-brand {
   height: 30px;
   line-height: 20px;
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .intro-header {
@@ -162,4 +165,13 @@ td {
 
 .float-right {
   float: right;
+}
+
+.mail, .mail:visited{
+  color: white;
+  font-size: 20px;
+}
+
+.mail:hover, .mail:active{
+  color: #3F494D;
 }
