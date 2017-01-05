@@ -2,6 +2,8 @@ html {
   box-sizing: border-box!important;
 }
 
+/* Navigation bar  style starts here */
+
 #navigation nav {
     background-color: transparent;
 
@@ -20,6 +22,9 @@ html {
   font-weight: 400;
 }
 
+/* Navigation bar  style ends here */
+
+/* home page  style starts here */
 .intro-header {
 background-image: url('CARGO_SHIP_tanker_ship_boat_transport_container_freighter_1920x900.jpg');
 background-size: cover;
@@ -29,8 +34,6 @@ padding-bottom:50px;
 color: white;
 }
 
-
-
 h1 {
  font-size: 50px;
  line-height: 200%;
@@ -39,6 +42,10 @@ h1 {
 .btn-casper {
   margin-left: 70px;
 }
+
+/* home page  style ends here */
+
+/* Service-info section  style starts here */
 
 .info-box {
   margin-top: 110px;
@@ -87,6 +94,7 @@ h1 {
   margin-top: 30px;
   font-weight: 100;
 }
+/* Service-info section  style ends here */
 
 /* Casper-service section style starts here */
 
@@ -105,7 +113,6 @@ h1 {
   padding: 50px;
 
 }
-
 
 section .container-fluid .well-grey {
   background-color: #808080;
@@ -137,14 +144,37 @@ b {
 }
 /*CASPER-service-how section style ends here */
 
+/*CASPER -service -benefits section style starts here */
+
+#CASPER-benefits .carousel {
+  background-color: #D4FCFF;
+
+  font-size: 20px;
+  min-height: 400px;
+  padding-top: 20px;
+}
+
+#CASPER-benefits .item {
+  margin: auto;
+  width: 70%;
+
+}
+
+.item > h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+/*CASPER -service -benefits section style ends here */
+
+/*Footer-contacts section style starts here */
+
 .footers {
   background-color: #6ABCBC;
   color: white;
   padding: 0px;
 }
-
-
-
 
 .column-1 {
   width: 45px;
@@ -154,7 +184,7 @@ b {
 
 footer h2 {
   line-height: 100%;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 table {
@@ -163,7 +193,7 @@ table {
 
 th {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 400;
   padding-bottom: 20px;
 }
 
@@ -182,17 +212,16 @@ td {
   margin-top: 40px;
 }
 
-
-
 .float-right {
   float: right;
 }
 
 .mail, .mail:visited{
   color: white;
-  font-size: 20px;
+
 }
 
 .mail:hover, .mail:active{
   color: #3F494D;
 }
+/*Footer-contacts section style ends here */
