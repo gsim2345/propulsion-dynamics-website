@@ -88,6 +88,8 @@ h1 {
   font-weight: 100;
 }
 
+/* Casper-service section style starts here */
+
 .bold-word {
   font-weight: bold;
 }
@@ -105,7 +107,6 @@ h1 {
 }
 
 
-
 section .container-fluid .well-grey {
   background-color: #808080;
   color: white;
@@ -115,6 +116,26 @@ section .container-fluid .well-grey {
 b {
   font-size: 22px;
 }
+
+/* Casper-service section style ends here */
+
+/*CASPER-service-how section style starts here */
+
+.info-body {
+  font-size: 16px;
+  padding: 30px;
+}
+
+.info-body h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+b {
+  font-weight: 500;
+}
+/*CASPER-service-how section style ends here */
 
 .footers {
   background-color: #6ABCBC;
