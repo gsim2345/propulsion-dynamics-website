@@ -109,20 +109,17 @@ h1 {
 }
 
 .grey-background {
-  background-color: #3F494D;
+  background-color: #BBBBBB;
   padding: 50px;
 
 }
 
 section .container-fluid .well-grey {
-  background-color: #808080;
-  color: white;
-  font-size: 20px;
+  background-color: #EEEEEE;
+  font-size: 16px;
 }
 
-b {
-  font-size: 22px;
-}
+
 
 /* Casper-service section style ends here */
 
@@ -146,26 +143,26 @@ b {
 
 /*CASPER -service -benefits section style starts here */
 
-#CASPER-benefits .carousel {
-  background-color: #D4FCFF;
-
-  font-size: 20px;
-  min-height: 400px;
-  padding-top: 20px;
+.tile {
+  font-size: 16px;
+  height: 400px;
+  padding: 20px;
 }
 
-#CASPER-benefits .item {
-  margin: auto;
-  width: 70%;
-
+.tile h4 {
+  font-weight: 500;
+}
+.tile-blue {
+  background-color: #B6D6D6;
 }
 
-.item > h4 {
-  font-size: 20px;
-  margin-bottom: 20px;
-  font-weight: 400;
+.tile-white {
+  background-color: white;
 }
 
+.tile-grey {
+  background-color: #EEEEEE;
+}
 /*CASPER -service -benefits section style ends here */
 
 /*Footer-contacts section style starts here */
