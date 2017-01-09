@@ -128,12 +128,13 @@ h1 {
 
 }
 
-section .container-fluid .well-grey {
-  background-color: #EEEEEE;
-  font-size: 16px;
+.blue {
+  color: #1d6989;
 }
 
-
+.orange {
+  color: #ec914b;
+}
 
 /* Casper-service section style ends here */
 
