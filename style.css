@@ -64,10 +64,10 @@ h1 {
 .info-box {
   margin-top: 110px;
   margin-bottom: 140px;
-  border-left: 1px solid #8AACBA;
-  border-right: 1px solid #8AACBA;
-  border-top: 5px solid #8AACBA;
-  border-bottom: 3px solid #8AACBA;
+  border-left: 1px solid  #ec914b;;
+  border-right: 1px solid #ec914b;;
+  border-top: 5px solid #ec914b;;
+  border-bottom: 3px solid #ec914b;;
   border-radius: 2px;
   height: 360px;
   width: 100%;
@@ -78,7 +78,7 @@ h1 {
 .lower-box {
   height: 12%;
   bottom: 0px;
-  background-color: #8AACBA;
+  background-color: #ec914b;;
   bottom: 0;
   position: absolute;
   width: 100%;
@@ -97,14 +97,14 @@ h1 {
  }
 
 .info-icon {
-  color: #8AACBA;
+  color: #ec914b;;
   font-size: 16px;
   margin-top: 40px;
 }
 
 .box-text {
   font-size: 23px;
-  color: #808080;
+  color: #8AACBA ;
   margin-top: 30px;
   font-weight: 100;
 }
@@ -227,12 +227,20 @@ td {
   float: right;
 }
 
-.mail, .mail:visited{
+.mail {
   color: white;
-
 }
 
-.mail:hover, .mail:active{
-  color: #3F494D;
+.mail:visited {
+  color: ##ec914b
 }
+
+.mail:hover{
+  color: #ec914b;
+}
+
+.mail:active {
+  color: #ec914b;
+}
+
 /*Footer-contacts section style ends here */
