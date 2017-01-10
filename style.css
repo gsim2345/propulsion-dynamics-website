@@ -118,10 +118,12 @@ h1 {
 
 .blue {
   color: #1d6989;
+  margin-right: 15px;
 }
 
 .orange {
   color: #ec914b;
+  margin-right: 15px;
 }
 
 /* Casper-service section style ends here */
@@ -162,6 +164,7 @@ b {
   height: 400px;
   padding: 20px;
   text-align: justify;
+  overflow: auto;
 }
 
 .tile h5 {
