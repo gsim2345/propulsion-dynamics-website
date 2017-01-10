@@ -95,9 +95,9 @@ h1 {
   color: #8AACBA ;
  }
 
-.info-icon {
+.info-icon i{
   color: #8AACBA;
-  font-size: 16px;
+  font-size: 80px;
   margin-top: 40px;
 }
 
@@ -185,9 +185,12 @@ b {
 }
 
 .icon-benefits {
-  font-size: 45px;
+  font-size: 60px;
   margin-right: 15px;
   color: #ec914b;
+  position: relative;
+  top: 5px;
+  bottom: 0px;
 }
 /*CASPER -service -benefits section style ends here */
 
