@@ -134,14 +134,24 @@ h1 {
   text-align: justify;
 }
 
-.info-body h4 {
-  font-size: 20px;
+.info-body h5 {
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 b {
   font-weight: 500;
+}
+
+.float-left {
+  float: left;
+  position: relative;
+}
+
+.icon-how {
+  font-size: 60px;
+  margin-right: 15px;
+  color: #1d6989;
 }
 /*CASPER-service-how section style ends here */
 
@@ -154,7 +164,7 @@ b {
   text-align: justify;
 }
 
-.tile h4 {
+.tile h5 {
   font-weight: 500;
 }
 .tile-blue {
@@ -167,6 +177,17 @@ b {
 
 .tile-grey {
   background-color: #EEEEEE;
+}
+
+.float-left {
+  float: left;
+  position: relative;
+}
+
+.icon-benefits {
+  font-size: 45px;
+  margin-right: 15px;
+  color: #ec914b;
 }
 /*CASPER -service -benefits section style ends here */
 
