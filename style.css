@@ -111,20 +111,9 @@ h1 {
 
 /* Casper-service section style starts here */
 
-.bold-word {
-  font-weight: bold;
-}
-
-.casper-text {
-  padding: 30px;
-  padding-right: 50px;
-  padding-left: 50px;
-}
-
 .grey-background {
   background-color: #BBBBBB;
   padding: 50px;
-
 }
 
 .blue {
@@ -140,8 +129,9 @@ h1 {
 /*CASPER-service-how section style starts here */
 
 .info-body {
-  font-size: 16px;
+  font-size: 15px;
   padding: 30px;
+  text-align: justify;
 }
 
 .info-body h4 {
@@ -158,9 +148,10 @@ b {
 /*CASPER -service -benefits section style starts here */
 
 .tile {
-  font-size: 16px;
+  font-size: 15px;
   height: 400px;
   padding: 20px;
+  text-align: justify;
 }
 
 .tile h4 {
