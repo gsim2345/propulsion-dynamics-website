@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+  //Scrollspy
+    $('body').scrollspy({
+        target: '.navbar'
+    });
+
   //Waypoints
       $('#service-info').waypoint(function(direction) {
           if (direction == 'down') {
@@ -11,5 +16,6 @@ $(document).ready(function() {
       }, {
           offset: 25
       });
+
 
 });

@@ -2,6 +2,9 @@ html {
   box-sizing: border-box!important;
 }
 
+body {
+  position: relative;
+}
 /* Navigation bar  style starts here */
 
 #navigation nav {
